@@ -1,13 +1,46 @@
 <html>
+    
     <head>
         <title>TO DO LIST</title>
         <script scr="script.js"></script>
         <style scr="style.css"></style>
     </head>
+    
     <body>
-        <label for="task">enter a task to do...</label>
-        <input type="text" id="task" name="task">
-        <input type="submit" value=""Submit">
-        <input type="button"> 
+        <input type="text" placeholder="Enter a new task..." />
+        <input type="submit" value="Submit" />
+        <input type="button"> <!-- for deleting selected tasks-->
     </body>
+
 </html>
+
+<!--
+
+This app will allow users to:
+
+    Add tasks
+    Mark tasks as completed
+    Delete tasks
+    (Optional) Save tasks locally to persist data on page reload
+
+Key Features
+
+    HTML: Structure the basic layout – a title, an input box to add new tasks, an "Add" button, and a list area to display the tasks.
+
+    CSS: Style the app with a clean look. You could add some hover effects or make completed tasks look visually distinct (like adding a strikethrough).
+
+    JavaScript:
+        Create functions to add a new task, mark a task as completed, and delete a task.
+        Use an array to store the list of tasks.
+        Use event listeners to handle button clicks and task interactions.
+
+Optional Features (for more practice)
+
+    Local Storage: Use localStorage to save the list of tasks so they stay on the page even after refreshing or closing the browser.
+
+    Date Sorting: Add timestamps to tasks and sort them by date or priority.
+
+    Drag-and-Drop: Allow users to reorder tasks by dragging and dropping.
+
+    Filtering/Searching: Add a filter to show only completed or incomplete tasks, or add a search bar.
+-->
